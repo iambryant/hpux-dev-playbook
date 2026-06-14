@@ -1,0 +1,7 @@
+[defaults]
+collections_path = ./collections
+roles_path = ./roles
+interpreter_python = /usr/local/bin/python3 ; HP-UX specific
+inventory = inventory
+remote_user = admin
+remote_tmp = /var/tmp/.ansible ; HP-UX specific

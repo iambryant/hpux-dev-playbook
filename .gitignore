@@ -1,0 +1,7 @@
+ansible.cfg
+collections/
+files/
+group_vars/
+inventory
+roles/
+templates/

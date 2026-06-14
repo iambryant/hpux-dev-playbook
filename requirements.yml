@@ -1,0 +1,5 @@
+---
+collections:
+  - name: lpars.hpux
+    source: https://github.com/LPARS/ansible-collection-hpux
+    type: git
