@@ -1,3 +1,4 @@
+---
 - name: "Deploy Ignite-UX"
   hosts: ignite_ux
   become: true
