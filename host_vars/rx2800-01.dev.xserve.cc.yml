@@ -1,0 +1,12 @@
+---
+integrity_vswitch_name: "vsw0"
+integrity_vswitch_lan: "0"
+integrity_guests:
+  - vm_name: "hpux-ia64-01"
+    lv_size: 65536
+    vg_name: "vgvm"
+    cpus: 2
+    ram_size: "16G"
+    vswitch_name: "vsw0"
+    mac_address: "023bbd343503"
+    autoboot: true

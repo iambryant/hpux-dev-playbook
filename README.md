@@ -1,8 +1,8 @@
-<img src="https://raw.githubusercontent.com/lpars/hpux-dev-playbook/main/docs/images/hpux-servers.png" width="50%" alt="HP-UX Servers" />
+<img src="https://raw.githubusercontent.com/iambryant/hpux-dev-playbook/main/docs/images/hpux-servers.png" width="50%" alt="HP-UX Servers" />
 
 # Ansible Playbook: HP-UX
 
-[![CI](https://github.com/LPARS/hpux-dev-playbook/actions/workflows/ci.yml/badge.svg)](https://github.com/LPARS/hpux-dev-playbook/actions/workflows/ci.yml)
+[![CI](https://github.com/iambryant/hpux-dev-playbook/actions/workflows/ci.yml/badge.svg)](https://github.com/iambryant/hpux-dev-playbook/actions/workflows/ci.yml)
 
 This playbook installs and configures my HP-UX infrastructure from the ground up.
 

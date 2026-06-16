@@ -1,18 +1,18 @@
 ---
-- name: "Deploy Ignite-UX"
-  hosts: ignite_ux
-  become: true
-  roles:
-    - lpars.hpux.ignite_ux
+#- name: "Deploy Ignite-UX"
+#  hosts: ignite_ux
+#  become: true
+#  roles:
+#    - iambryant.hpux.ignite_ux
 
 - name: "Deploy Integrity VM and manage VMs"
   hosts: integrity_vm
   become: true
   roles:
-    - lpars.hpux.integrity_vm
+    - iambryant.hpux.integrity_vm
 
 - name: "Configure NTP"
   hosts: all
   become: true
   roles:
-    - lpars.hpux.ntp
+    - iambryant.hpux.ntp
