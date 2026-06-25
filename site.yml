@@ -1,11 +1,11 @@
 ---
-#- name: "Deploy Ignite-UX"
-#  hosts: ignite_ux
-#  become: true
-#  roles:
-#    - iambryant.hpux.ignite_ux
+- name: "Deploy Ignite-UX"
+  hosts: ignite_ux
+  become: true
+  roles:
+    - iambryant.hpux.ignite_ux
 
-- name: "Deploy Integrity VM and manage VMs"
+- name: "Deploy Integrity VM"
   hosts: integrity_vm
   become: true
   roles:

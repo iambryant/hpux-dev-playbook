@@ -1,7 +1,7 @@
 ---
-integrity_vswitch_name: "vsw0"
-integrity_vswitch_lan: "0"
-integrity_guests:
+integrity_vm_vswitch_name: "vsw0"
+integrity_vm_vswitch_lan: "0"
+integrity_vm_guests:
   - vm_name: "hpux-ia64-01"
     lv_size: 65536
     vg_name: "vgvm"
