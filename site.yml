@@ -11,7 +11,7 @@
   roles:
     - iambryant.hpux.integrity_vm
 
-- name: "Configure NTP"
+- name: "Ensure hosts are configured to a baseline"
   hosts: all
   become: true
   roles:
